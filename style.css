@@ -1,0 +1,36 @@
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid #000 1px;
+}
+
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+.container-main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.status{
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.button{
+    margin: 6px;
+    width: auto;
+    height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
